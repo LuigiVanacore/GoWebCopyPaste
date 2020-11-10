@@ -1,26 +1,19 @@
-{{define "base"}}
-    <!doctype html>
-    <html lang='en'>
-    <head>
-        <meta charset='utf-8'>
-        <title>{{template "title" .}} - Snippetbox</title>
-        <!-- Link to the CSS stylesheet and favicon -->
-        <link rel='stylesheet' href='/static/css/main.css'>
-        <link rel='shortcut icon' href='/static/img/favicon.ico' type='image/x-icon'>
-
-    </head>
-    <body>
-    <header>
-        <h1><a href='/'>Snippetbox</a></h1>
-    </header>
-    <nav>
-        <a href='/'>Home</a>
-    </nav>
-    <main>
-        {{template "main" .}}
-    </main>
-    {{template "footer" .}}
-
-    </body>
-    </html>
-{{end}}
+<!doctype html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Home - Snippetbox</title>
+</head>
+<body>
+<header>
+    <h1><a href='/'>Snippetbox</a></h1>
+</header>
+<nav>
+    <a href="/">Home</a>
+</nav>
+<main>
+    <h2>Latest Snippets</h2>
+    <p>There's nothing to see here yet!</p>
+</main>
+</body>
+</html>
