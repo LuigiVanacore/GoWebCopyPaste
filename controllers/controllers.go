@@ -19,6 +19,7 @@ func Home(w http.ResponseWriter, r *http.Request) {
 	files := []string{
 		"./././ui/template/home.page.gohtml",
 		"./././ui/template/base.layout.gohtml",
+		"./././ui/template/footer.partial.gohtml",
 	}
 
 	// Use the template.ParseFiles() function to read the files and store the
